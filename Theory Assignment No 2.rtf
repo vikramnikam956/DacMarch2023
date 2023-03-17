@@ -1,0 +1,131 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\f0\fs22\lang9 Assignment No 2\par
+
+\pard\sa200\sl276\slmult1\b Q-1) what is difference between JDK,JRE and JVM?\b0\par
+\b Ans- \b0 JDK stands for Java Development Kit and it is a software development kit that includes tools for developing Java applications. It includes the Java Runtime Environment (JRE), a compiler, and other tools that are necessary for developing Java applications.\par
+JRE stands for Java Runtime Environment and it is the environment in which Java programs run. It includes the Java Virtual Machine (JVM) and the Java class libraries.\par
+JVM stands for Java Virtual Machine and it is an abstract machine that provides the runtime environment in which Java bytecode can be executed. It interprets compiled Java code and executes it on the computer's hardware.\par
+In simple words, the JDK is used by developers to create Java applications, while the JRE is used to run Java applications. The JVM is the component that executes the Java code and provides the runtime environment for the Java application to run.\par
+\par
+\b Q-2) what is JIT compiler?\b0\par
+\b Ans- \b0 JIT compiler stands for Just-In-Time compiler, and it is a part of the Java Virtual Machine (JVM) that dynamically compiles Java bytecode into native machine code during runtime.\par
+Instead of interpreting Java bytecode instructions one by one, the JIT compiler analyzes the code and identifies portions of the code that are frequently executed. It then compiles those portions of the code into native machine code, which is executed directly by the CPU.\par
+This can significantly improve the performance of Java applications, as the native machine code can be executed much faster than interpreted bytecode. The JIT compiler also has the ability to optimize the compiled code based on runtime data, further improving the application's performance.\par
+In simple words, the JIT compiler is a component of the JVM that improves the performance of Java applications by dynamically compiling bytecode into native machine code during runtime.\par
+\par
+\b Q-3) what is class loader?\b0\par
+\b Ans- \b0 In Java, a class loader is a component of the Java Runtime Environment (JRE) that is responsible for loading Java classes into memory when they are needed by a Java program.\par
+When a Java program is executed, it is divided into separate classes, and each of these classes is loaded into memory by the class loader. The class loader searches for the required classes in the Java classpath, which is a list of directories and JAR files where Java classes are stored.\par
+There are three types of class loaders in Java: the bootstrap class loader, the extension class loader, and the system class loader. The bootstrap class loader is responsible for loading the core Java classes, the extension class loader is responsible for loading classes from the Java extensions directory, and the system class loader is responsible for loading classes from the application classpath.\par
+In simple words, a class loader in Java is a component of the JRE that loads Java classes into memory when they are needed by a Java program. It searches for classes in the Java classpath and there are three types of class loaders in Java.\par
+\b\par
+Q-4) Explain various memory logical partitions .\par
+Ans- \b0 In Java, the memory used by a running program is divided into several logical partitions. Here are the main ones:\par
+Heap memory: This is the memory used by an application to store objects and arrays that are dynamically allocated during runtime. The heap is shared among all threads in the application.\par
+Stack memory: This is the memory used by each thread in an application to store local variables and method call frames. Each thread has its own stack, which is not shared with other threads.\par
+Method Area: This is the memory used to store the class definitions and related metadata, such as method code and constant pool data. This memory is shared among all threads in the application.\par
+Native memory: This is the memory used by the Java Virtual Machine (JVM) to store code and data that is not managed by the Java memory model, such as the JVM itself and native libraries.\par
+PC Register: This is a small area of memory used by each thread to store the current execution state, such as the program counter.\par
+In simple words, the main memory logical partitions in Java include heap memory, which stores objects and arrays dynamically allocated during runtime, stack memory, which stores local variables and method call frames for each thread, method area, which stores class definitions and metadata, native memory, which stores code and data not managed by the Java memory model, and the PC register, which stores the current execution state for each thread.\par
+\par
+\b Q-5) what gives Java its "write once and run anywhere nature"? simple words.\b0\par
+\b Ans- \b0 Java's "write once, run anywhere" nature is achieved through the use of bytecode, which is a platform-independent binary format that is executed by the Java Virtual Machine (JVM) on any operating system or platform that has a compatible JVM installed.\par
+When a Java program is compiled, it is translated into bytecode instead of platform-specific machine code. This bytecode can then be executed on any system that has a JVM installed, regardless of the underlying hardware or operating system.\par
+This means that a Java program can be written and compiled once, and then executed on any platform or device that has a compatible JVM installed, without the need for recompilation or modification of the code.\par
+In simple words, Java's "write once, run anywhere" nature is achieved through the use of bytecode, which can be executed on any system with a compatible JVM, making Java programs portable and platform-independent.\par
+\b\par
+Q-6) Explain History of Java. who invented Java?\par
+Ans- \b0 Java was originally created by James Gosling, Patrick Naughton, and Mike Sheridan at Sun Microsystems (now Oracle Corporation) in the early 1990s. The language was initially called "Oak," but was later renamed to "Java" in 1995.\par
+The goal of the Java language was to create a platform-independent language that could be used to create applications that could run on any hardware or operating system. To achieve this, the Java team developed a bytecode format that could be executed on any platform that had a compatible Java Virtual Machine (JVM).\par
+The first version of Java, Java 1.0, was released in 1995, and it quickly gained popularity as a language for developing web applets and server-side applications. Over the years, Java has evolved and added new features, such as support for multithreading, network programming, and distributed computing.\par
+In 2010, Oracle Corporation acquired Sun Microsystems, becoming the new owner of Java. Since then, Java has continued to be widely used for a variety of applications, including web development, mobile development, and enterprise software development.\par
+In short, Java was invented by James Gosling, Patrick Naughton, and Mike Sheridan at Sun Microsystems in the early 1990s. Its goal was to create a platform-independent language, and it was first released in 1995 as Java 1.0.\par
+\b\par
+Q-7) what was original name of Java? why it was renamed?\par
+Ans - \b0 The original name of Java was "Oak." It was named after a tree that was outside the office of James Gosling, one of the inventors of Java, but it was later renamed to Java in 1995.\par
+The reason for the name change was due to a trademark issue. The name "Oak" was already trademarked by another company, so the Java team had to come up with a new name for the language. After considering several options, they decided on the name Java, which was suggested by a member of the team, Kim Polese.\par
+The name Java was chosen because it was unique and easy to remember, and it did not have any existing trademark issues. It was also a reference to the coffee that was consumed in large quantities by the Java team during the development of the language.\par
+In short, the original name of Java was Oak, but it was renamed to Java in 1995 due to a trademark issue. The new name was chosen for its uniqueness, ease of rememberance, and reference to the coffee consumed by the Java team.\par
+\b\par
+Q-8) List features of Java.\par
+Ans- \b0\par
+Here are some of the key features of the Java programming language:\par
+1) Object-oriented programming: Java is a fully object-oriented language, which means it supports the concepts of encapsulation, inheritance, and polymorphism.\par
+2) Platform independence: Java programs can run on any platform that has a Java Virtual Machine (JVM) installed, without the need for recompilation or modification of the code.\par
+3) Garbage collection: Java has an automatic garbage collector that manages memory allocation and deallocation, which reduces the likelihood of memory leaks and makes memory management easier.\par
+4) Multi-threading: Java supports multi-threading, which means that multiple threads can execute concurrently within a single program.\par
+5) Exception handling: Java provides robust exception handling mechanisms that make it easier to write programs that can recover from errors and exceptions.\par
+6) Security: Java has built-in security features, such as a sandbox security model, that help prevent malicious code from damaging or compromising the system.\par
+7) Libraries and frameworks: Java has a large collection of libraries and frameworks that provide pre-built functionality for common tasks, such as database access, network programming, and user interface design.\par
+8) Scalability: Java is designed to be scalable, which means it can be used to build applications of any size, from small mobile apps to large enterprise systems.\par
+In short, some of the main features of Java include its support for object-oriented programming, platform independence, garbage collection, multi-threading, exception handling, security, libraries and frameworks, and scalability.\par
+\par
+\b Q-9) List various Datatypes in Java.\b0\par
+\b Ans- \b0 Primitive data types: These are basic data types that are built into the Java language. There are eight primitive data types in Java:\par
+byte: 8-bit integer\par
+short: 16-bit integer\par
+int: 32-bit integer\par
+long: 64-bit integer\par
+float: 32-bit floating point number\par
+double: 64-bit floating point number\par
+char: 16-bit Unicode character\par
+boolean: true or false\par
+Non-primitive data types: These are data types that are not built into the Java language, but are defined by the programmer. Examples include:\par
+Strings: a sequence of characters\par
+Arrays: a collection of elements of the same type\par
+Classes: user-defined data types that encapsulate data and behavior\par
+In addition to these basic data types, Java also supports wrapper classes that provide an object-oriented representation of the primitive data types. For example, the Integer class is a wrapper for the int primitive data type, and provides additional methods and functionality.\par
+In short, the various data types in Java include eight primitive data types (byte, short, int, long, float, double, char, and boolean), non-primitive data types (such as Strings, arrays, and classes), and wrapper classes for the primitive data types.\par
+\b\par
+Q-10) what is difference between\par
+\b0 System.out.print\par
+System.out.println\par
+System.err.print\par
+\b Ans-\b0  The main difference between the three methods System.out.print(), System.out.println(), and System.err.print() in Java is in how they handle the output and error streams.\par
+System.out.print(): This method prints the output to the standard output stream (usually the console) without adding a new line at the end. It does not flush the output buffer after printing.\par
+System.out.println(): This method prints the output to the standard output stream (usually the console) and adds a new line at the end. It also flushes the output buffer after printing.\par
+System.err.print(): This method prints the error message to the error output stream (usually the console) without adding a new line at the end. It does not flush the output buffer after printing.\par
+\b\par
+Q-11) How is Java Platform independent?\b0\par
+\b Ans - \b0 Java is platform independent because it uses a combination of compiled and interpreted code.\par
+When you write Java code, it is first compiled into byte code, which is a platform-independent code that can be executed on any platform that has a Java Virtual Machine (JVM) installed. The byte code is then interpreted by the JVM into machine-specific instructions that can be executed by the underlying operating system.\par
+Since the byte code is platform-independent, it can be executed on any platform that has a JVM installed, without the need for recompilation or modification of the code. This makes Java programs highly portable and allows them to run on any platform, whether it is a Windows, Mac, or Linux machine.\par
+In addition, the Java platform provides a standard set of libraries and APIs (Application Programming Interfaces) that are available across all platforms, which further enhances the platform independence of Java. This means that you can write a Java program on one platform and it will run on any other platform that has a JVM and the required libraries installed.\par
+Overall, the combination of compiled and interpreted code, along with the platform-independent byte code and standard libraries, is what makes Java a platform-independent language.\par
+\b\par
+Q-12) what is bytecode? How is it different from machine code?\par
+Ans- \b0 Bytecode is an intermediate representation of a program's code that is generated by a compiler, which can be executed on any platform that has a Java Virtual Machine (JVM) installed.\par
+In Java, when you write a program in Java language, it is first compiled into bytecode, which is a platform-independent code that can be executed on any platform that has a JVM installed. The bytecode is a set of instructions that the JVM can interpret and execute on the underlying platform.\par
+On the other hand, machine code is the set of instructions that are executed directly by the computer's processor. It is specific to a particular computer architecture and operating system, which means that machine code generated for one platform may not run on another platform.\par
+The key difference between bytecode and machine code is that bytecode is platform-independent, while machine code is platform-specific. Bytecode can be executed on any platform that has a JVM installed, whereas machine code can only be executed on the specific platform for which it was compiled.\par
+In summary, bytecode is an intermediate code that is generated by a compiler and can be executed on any platform that has a JVM installed, while machine code is the code that is executed directly by the computer's processor and is specific to a particular platform.\par
+\par
+\b Q-13) what is difference between Jar file & Runnable jar file?\b0\par
+\b Ans-  \b0 A JAR (Java Archive) file is a package file format used to aggregate many Java class files and associated metadata and resources (such as images, sound files, etc.) into a single file for distribution. A JAR file can contain Java class files, as well as other resources such as images, sound files, and other types of data.\par
+A Runnable JAR file, on the other hand, is a JAR file that has an entry point specified in the manifest file. An entry point is the starting point of an application, which is executed when the JAR file is double-clicked or executed from the command line. A Runnable JAR file can be run as an executable file, without the need for an explicit Java command-line invocation.\par
+In short, the main difference between a JAR file and a Runnable JAR file is that the latter has an entry point specified in the manifest file, which allows it to be run as an executable file. A JAR file is simply a package file format used to aggregate Java class files and associated resources into a single file for distribution.\par
+\b\par
+Q-14) what is difference between Runnable jar file & exe file?\par
+Ans- \b0  A Runnable JAR file is a JAR file that has an entry point specified in the manifest file and can be executed as an executable file, without the need for an explicit Java command-line invocation. It requires a Java Runtime Environment (JRE) to be installed on the target machine to run the application.\par
+On the other hand, an EXE (executable) file is a file format used to distribute and run software applications on the Windows operating system. Unlike a Runnable JAR file, an EXE file contains compiled machine code that can be executed directly by the operating system without requiring any additional software or libraries.\par
+The key difference between a Runnable JAR file and an EXE file is the underlying technology used to execute the application. A Runnable JAR file requires a JRE to be installed on the target machine to run the application, while an EXE file can be run directly on the Windows operating system without any additional dependencies.\par
+In summary, a Runnable JAR file is a platform-independent executable file that requires a JRE to run, while an EXE file is a platform-specific executable file that can be run directly on the Windows operating system.\par
+\par
+\b Q-15) How is C platform dependent language?\b0\par
+\b Ans-  \b0  C is a platform-dependent language because it is compiled directly to machine code that is specific to the underlying hardware and operating system of the target platform. This means that a program written in C needs to be compiled separately for each platform it will run on.\par
+In C, the compiler generates machine code that is specific to the underlying hardware and operating system of the target platform. This machine code directly interacts with the hardware of the platform and makes use of system-specific libraries and functions. This makes it difficult to write portable code that can run on different platforms without modification.\par
+Additionally, C does not provide a standard library for performing many common tasks, such as input/output operations or string manipulation. Instead, it relies on system-specific libraries to provide these functionalities, which can vary widely between platforms.\par
+Therefore, C is considered a platform-dependent language because it requires the programmer to be aware of the underlying hardware and operating system of the target platform and to make modifications to the code accordingly in order to ensure it runs correctly.\par
+\par
+\b Q-16) what is difference between path & class path?\par
+Ans- \b0 Path and classpath are both related to how Java finds and loads external resources, but they have different meanings and purposes.\par
+\par
+The path is an environment variable that contains a list of directories separated by the system-specific path separator character. It is used by the operating system to locate executable files when a user types a command in the terminal. In the context of Java, the path variable is used to locate the Java executable (java.exe) when executing Java programs from the command line.\par
+\par
+On the other hand, classpath is an environment variable that tells the Java Virtual Machine (JVM) where to find Java class files and other resources required by a Java program. When a Java program is run, the JVM searches for the class files it needs to load and executes, based on the classpath.\par
+\par
+In summary, the path variable is used by the operating system to locate executable files, while the classpath is used by the JVM to locate Java class files and other resources needed by a Java program. The path is used to locate the Java executable itself, while the classpath is used to locate the Java class files required by a Java program.\par
+\par
+}
+ 
